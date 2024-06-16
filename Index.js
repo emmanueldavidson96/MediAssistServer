@@ -11,5 +11,5 @@ app.use("/", async (req, res) => {
 
 
 app.listen(PORT, async () => {
-    console.log(`App running in port ${PORT}`)
+    console.log(`App running on port ${PORT}`)
 })
