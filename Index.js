@@ -19,7 +19,7 @@ app.use("/", async (req, res) => {
     res.send("Live Api Deployments")
 })
 
-app.use("/mediassist", async (req,res) => {
+app.post("/mediassist", async (req,res) => {
     const model = my_google_ai.getGenerativeModel({
         model: "gemini-1.5-flash"
     })
